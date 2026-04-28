@@ -11,8 +11,19 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "com.khamsone.supabasstest",
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      }
+    },
     "web": {
-      "bundler": "webpack"
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "105689fe-643f-4f78-9ea0-c6457ff015cb"
+      }
     }
   }
 }
